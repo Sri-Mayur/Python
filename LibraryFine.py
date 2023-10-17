@@ -23,4 +23,3 @@ elif(m2<m1):
 
 elif(y2<y1):
     print("10000")
-
