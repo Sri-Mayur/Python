@@ -31,3 +31,8 @@ print(l2)
 # l3=[1,'a',True,'b']
 # print(max(l3))         It will give error because string and integer can't be compared
 
+l3=[1,6,8,True,False]
+
+l3.remove(0)
+
+print(l3)
