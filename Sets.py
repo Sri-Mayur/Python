@@ -23,3 +23,31 @@ print(a)
 
 a.add(5)
 print(a)
+
+a.discard(7)
+print(a)
+
+a.clear()
+print(a)
+
+c=b
+print(c)
+b.discard(9)
+print(b)
+print(c)
+
+# The changes which we have done on b will directly affect c as well
+# a+b and a*b can't be use
+
+print(10 in b)
+
+c.add(12)
+
+print(b.intersection(c))
+
+print(a.intersection(c))
+print(a.union(b))
+
+
+x={}
+print(type(x))
