@@ -50,4 +50,14 @@ print(a.union(b))
 
 
 x={}
-print(type(x))
+print(type(x)) # Dictionary <class 'dict'>
+
+s=set()
+print(type(s)) # Set  <class 'set'>
+
+m='1 2 3 4'
+m.split()
+print(m)
+m= type[int]  #Generic Alias
+
+print(type(m))
